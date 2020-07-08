@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lakki+Reddy|Pacifico&display=swap');
+
+.story-align h3 {
+    font-size: 4vw;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.bg1 {
+    margin-top: 20px;
+    background-color: lightgrey;
+}
+
+.story-align {
+    width: 60%;
+    text-align: justify;
+    font-size: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.story-align p {
+    margin-bottom: 0px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.size-div {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.size-div {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.cheff-story {
+    background-color: rgb(146, 120, 34);
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.ldiv {
+    height: 40px;
+    width: 50%;
+    border-bottom-right-radius: 35px;
+    background-color: lightgrey;
+}
+
+.collect {
+    width: 100%;
+    display: flex;
+}
+
+.rdiv {
+
+
+    height: 40px;
+    width: 50%;
+    border-bottom-left-radius: 35px;
+    background-color: lightgrey;
+}
+
+.bg-color {
+    background-color: #93a728 !important;
+}
+
+.fig-caption h5 {
+    color: #2d9f85;
+    font-family: 'Dancing Script', cursive;
+}
+
+.cheff-story p {
+    text-align: justify;
+    font-size: 1.5vw;
+
+
+}
+
+.cheff-story h3 {
+    font-size: 2vw;
+    width: 100%;
+    text-decoration: underline;
+}
+/* cheff image  */
+.cheff-img img {
+    margin-left: 90px;
+    margin-top: 20px;
+    width: 75%;
+    height: auto;
+    position: relative;
+    animation-name: example;
+    animation-duration: infinite;
+    animation-iteration-count: infinite;
+}
+
+.img1 {
+    width: 28%;
+    margin-left: 1.5%;
+}
+
+.img2 {
+    width: 38%;
+    margin-left: 1.5%;
+}
+/* animation */
+@keyframes example {
+    0%   {transform: scale(0); left:0px; top:0px;}
+     50%   {transform: scale(1);; left:20px; top:0px;}
+    100% {transform: scale(0); left:0px; top:0px;}
+  }
+@media screen and (max-width: 360px) {
+    .cheff-img {
+        display: none;
+    }
+
+    .size-div p {
+        font-size: 15px;
+    }
+
+    .size-div h3 {
+        font-size: 20px;
+    }
+
+    .images-bottom img {
+        display: grid;
+        margin-top: 20px;
+
+    }
+
+    .img1,
+    .img2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

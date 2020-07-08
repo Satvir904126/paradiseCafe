@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lakki+Reddy|Pacifico&display=swap');
+
+@font-face {
+    font-family: custom-font;
+    src: url(28fonts.ttf);
+}
+
+.header-position {
+    position: relative;
+    height: auto;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    background-image: url(../Images/Reservation_picture.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.nav-item a {
+    color: cornsilk;
+}
+
+.header-position>* {
+    position: relative;
+    z-index: 2;
+}
+
+.header-position::after {
+    content: '';
+    background-color: #00000082;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.resrvatn-form {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.25;
+    display: block;
+    padding: 1rem 2rem;
+    color: #495057;
+    background-clip: padding-box;
+}
+
+.header2,
+.reservation-header {
+    text-align: center;
+}
+
+.reservation-form {
+    text-align: center;
+
+}
+
+form>input {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+input {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    height: 40px;
+    width: 40%;
+}
+
+.bg-color {
+    background-color: #8bc2e9 !important;
+}
+
+/* .center-form{
+    text-align: center;
+} */
+
+.reservation-header {
+    position: relative;
+    margin-top: 100px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: white;
+}
+/* backgroun white for form */
+.white-bg {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+}
+
+.header2 {
+    margin-top: 40px;
+    font-size: 2em;
+    font-family: custom-font;
+    color: rgb(122, 34, 34);
+}
+/* submit button */
+.reservation-btn {
+    display: flex;
+    justify-content: center;
+    background: lightgray;
+    font-size: 20px;
+    width: 50%;
+    padding: 5px;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 12px;
+    font-family: 'Marck Script', cursive;
+}
+
+@media screen and (max-width:768px) {
+    .white-bg {
+        background-color: rgb(197, 197, 197);
+        width: 70%;
+
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .white-bg {
+        background-color: rgb(197, 197, 197);
+        width: 90%;
+        margin: auto;
+        height: auto;
+    }
+
+    form>input {
+        margin-bottom: 10px;
+        width: 90%;
+    }
+}
